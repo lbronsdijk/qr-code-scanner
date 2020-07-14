@@ -15,7 +15,10 @@ module.exports = {
     filename: '[name].[hash].bundle.js'
   },
   devServer: {
-    contentBase: __dirname + '/app'
+    contentBase: __dirname + '/app',
+    host: 'luc.angrybyt.es',
+    port: 8080,
+    https: true
   },
   optimization: {},
   plugins: [
